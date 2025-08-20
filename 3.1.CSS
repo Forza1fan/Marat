@@ -1,0 +1,25 @@
+h1 { 
+    font-size: 24px;
+}
+p {
+    font-size: 1.2em;
+}
+.container { 
+    font-size: 1.1rem;
+    width: 80%;
+    border: 1px solid black;
+    padding: 10px;
+    margin:10px auto;
+}
+.block1{ 
+    color: #ff0000;
+    background-color: #f0f0f0;
+}
+.block2{ 
+    color:rgb(0,0,255);
+    background-color: rgb(200,200,200)
+}
+.block3{ 
+    color:rgba(0,128,0,0.8);
+    background-color:rgba(0,0,0,0.1)
+}
