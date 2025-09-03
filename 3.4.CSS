@@ -1,0 +1,27 @@
+button:hover{ 
+    background-color: lightblue;
+    cursor: pointer;
+}
+input:focus{ 
+    border: 2px solide red;
+}
+ul li:first-child{ 
+    color:green;
+    font-weight: bold;
+}
+UL LI:last-child{ 
+    color:blue;
+    font-style: italic;
+}
+a:hover{ 
+    color: red;
+}
+div p:nth-child(odd){ 
+    background-color: #f0f0f0;
+}
+.block p:first-child:hover{ 
+    background-color: yellow;
+}
+.block input:focus:last-child{ 
+    background-color: pink;
+}
