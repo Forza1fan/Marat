@@ -1,0 +1,147 @@
+.block-example{ 
+    display: block;
+    background-color: aqua;
+}
+.inline-example{ 
+    display: inline;
+    background-color: aquamarine;
+}
+.flex-example{ 
+    display: flex;
+    background-color: lightgreen;
+}
+.flex-container { 
+    display: flex;
+    background-color: lightblue;
+}
+.box{ 
+    width: 200px;;
+    height: 100px;
+    border: 1px solid black;
+}
+.flex-container{ 
+    display: flex;
+    background-color: whitesmoke;
+    border: 1px solid black;
+}
+.item{ 
+    width: 50px;
+    height: 50px;
+    background-color: lightsalmon;
+    border: 1px solid black;
+}
+.column{ 
+    flex-direction: column;
+}
+.wrap { 
+    flex-wrap: wrap;
+    width: 200px;
+}
+.flow { 
+    flex-flow: row wrap;
+    width: 200px;
+}
+.flex-container { 
+    display: flex;
+    border: 1px black;
+    background-color: lightslategray;
+}
+.item { 
+    width: 50px;
+    height: 50px;
+    background-color: lightseagreen;
+}
+.tall { 
+    height: 100px;
+    background-color: lightgoldenrodyellow;
+}
+.justify { 
+    justify-content: space-between;
+}
+.align { 
+    align-items: flex-end;
+    height: 150px;
+}
+.content{ 
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: 150px;
+}
+,.flex-container { 
+    display: flex;
+    border:1px solid black;
+    background-color: bisque;
+}
+.item{ 
+    border: 1px solid black;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.grow{ 
+    flex-grow:1 ;
+    background-color: aquamarine;
+}
+.shrink{ 
+    flex-shrink: 3;
+    width: 200px;
+    background-color: coral;
+}
+.basis { 
+    flex-basis: 150px;
+    background-color: beige;
+}
+lex-container {
+  display: flex;
+  border: 1px solid #333;
+  background: #f9f9f9;
+  padding: 10px;
+  gap: 10px;
+  width: 100%; 
+  min-height: 80px;}
+.item {
+  border: 1px solid #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  background: lightblue;
+}
+.item1 {
+  flex: 0 0 50%;
+  background-color: lightgreen;
+}
+.item2 {
+  flex: 1 1 auto;   
+  background-color : lightcoral;
+}
+.item3 {
+  flex: 0 0 100px;
+  background-color: azure;
+}
+.Menu { 
+    display: flex;
+    justify-content:center;
+    gap: 35px;
+    background-color: whitesmoke;
+}
+.Menu a { 
+    color: #333;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px;
+}
+.gallery { 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.card{
+    background-color: azure;
+}
+.card img{ 
+    max-width: 50%;
+}
